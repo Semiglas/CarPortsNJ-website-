@@ -1,0 +1,930 @@
+---
+import MainLayout from "../layouts/MainLayout.astro";
+import "../styles/styles.scss";
+---
+
+<MainLayout>
+  <button class="fixed-contact"> <a href="#contact-1105">Contact us</a></button>
+  <div class="contact-header">
+    <div class="phone">
+      <div class="phone-svg">
+        <svg
+          viewBox="0 0 24 24"
+          width="100%"
+          height="100%"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          ><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g
+            id="SVGRepo_tracerCarrier"
+            stroke-linecap="round"
+            stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier">
+            <path
+              d="M10.0376 5.31617L10.6866 6.4791C11.2723 7.52858 11.0372 8.90532 10.1147 9.8278C10.1147 9.8278 10.1147 9.8278 10.1147 9.8278C10.1146 9.82792 8.99588 10.9468 11.0245 12.9755C13.0525 15.0035 14.1714 13.8861 14.1722 13.8853C14.1722 13.8853 14.1722 13.8853 14.1722 13.8853C15.0947 12.9628 16.4714 12.7277 17.5209 13.3134L18.6838 13.9624C20.2686 14.8468 20.4557 17.0692 19.0628 18.4622C18.2258 19.2992 17.2004 19.9505 16.0669 19.9934C14.1588 20.0658 10.9183 19.5829 7.6677 16.3323C4.41713 13.0817 3.93421 9.84122 4.00655 7.93309C4.04952 6.7996 4.7008 5.77423 5.53781 4.93723C6.93076 3.54428 9.15317 3.73144 10.0376 5.31617Z"
+              fill="#bc1f20"></path>
+          </g></svg
+        >
+      </div>
+      <p>239.319.9796</p>
+    </div>
+    <div class="email">
+      <div class="email-svg">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+          ><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g
+            id="SVGRepo_tracerCarrier"
+            stroke-linecap="round"
+            stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier">
+            <path
+              d="M12 10.35C12.9113 10.35 13.65 11.0887 13.65 12C13.65 12.9113 12.9113 13.65 12 13.65C11.0887 13.65 10.35 12.9113 10.35 12C10.35 11.0887 11.0887 10.35 12 10.35Z"
+              fill="#bc1f20"></path>
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2ZM6.75 12C6.75 9.1005 9.1005 6.75 12 6.75C14.8995 6.75 17.25 9.1005 17.25 12C17.25 12.6327 17.1384 13.2376 16.9345 13.7973C16.8991 13.8944 16.8295 13.9989 16.7183 14.1015L16.6377 14.1758C16.3369 14.4533 15.8853 14.4888 15.5448 14.2618C15.2981 14.0974 15.15 13.8206 15.15 13.5241V12C15.15 10.2603 13.7397 8.85 12 8.85C10.2603 8.85 8.85 10.2603 8.85 12C8.85 13.7397 10.2603 15.15 12 15.15C12.7017 15.15 13.3499 14.9205 13.8735 14.5325C14.0557 14.9233 14.3431 15.2635 14.7127 15.5099C15.6294 16.121 16.8451 16.0252 17.6548 15.2783L17.7354 15.204C17.9855 14.9732 18.211 14.6756 18.3439 14.3108C18.6069 13.5889 18.75 12.8103 18.75 12C18.75 8.27208 15.7279 5.25 12 5.25C8.27208 5.25 5.25 8.27208 5.25 12C5.25 15.7279 8.27208 18.75 12 18.75C12.4142 18.75 12.75 18.4142 12.75 18C12.75 17.5858 12.4142 17.25 12 17.25C9.1005 17.25 6.75 14.8995 6.75 12Z"
+              fill="#bc1f20"></path>
+          </g></svg
+        >
+      </div>
+      <p>carportsnj@gmail.com</p>
+    </div>
+  </div>
+  <section id="hero">
+    <header>
+      <img src="GM Carports logo.svg " class="header-logo" alt="logo" />
+      <div id="menu-desktop">
+        <a href="#">
+          <div class="menu-item">
+            <p>home</p>
+          </div>
+        </a>
+
+        <div class="menu-item">
+          <p><a href="#gallery">Photo Gallery</a></p>
+        </div>
+        <div class="menu-item">
+          <a href="#contact-1105"> <p>Contact us</p></a>
+        </div>
+      </div>
+      <div id="menu-mobile" class="mobile-visible">
+        <!-- TODO mobile menu -->
+        <div id="menu-container">
+          <div id="menu-wrapper">
+            <div id="hamburger-menu">
+              <span></span><span></span><span></span>
+            </div>
+            <!-- hamburger-menu -->
+          </div>
+          <!-- menu-wrapper -->
+          <ul class="menu-list accordion">
+            <a class="menu-link" href="#">
+              <li id="nav1" class="toggle accordion-toggle">HOME</li>
+            </a>
+            <a href="#gallery">
+              <li id="nav2" class="toggle accordion-toggle">Photo Gallery</li>
+            </a>
+
+            <a href="#contact-1105">
+              <li id="nav3" class="toggle accordion-toggle">Contact us</li>
+            </a>
+          </ul>
+          <!-- menu-container -->
+        </div>
+      </div>
+    </header>
+    <div class="hero-banner">
+      <div class="hero-text">
+        <h1>Let's get covered</h1>
+        <p>
+          We offer aluminiun carports, patio & pool covers, and have
+          installation services that are sure to make you satisfied. Our unique
+          customization ideas are easy to install, use, and clean
+        </p>
+      </div>
+      <!-- TODO beatify calculator -->
+      <div class="hero-calculator">
+        <h2>Get a Free instant Quote</h2>
+        <div class="calculator-input-container">
+          <div class="input-and-label">
+            <label for="width">Enter your width</label>
+            <input class="width" type="text" />
+          </div>
+          <div class="input-and-label">
+            <label for="width">Enter your length</label>
+            <input class="height" type="text" />
+          </div>
+          <div class="input-and-label">
+            <p>Square feet</p>
+            <div class="computed square-feet"></div>
+          </div>
+          <div class="input-and-label">
+            <p>Price range</p>
+            <div class="computed price-range"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="who-we-are">
+    <h1>Who we are</h1>
+    <h2 class="big">Let's get covered</h2>
+    <div class="whoweare-container">
+      <img src="services-cover.jpg" alt="" />
+      <div class="whoweare-content">
+        <p>
+          We offer aluminum carports, patio and pergolas; and offer installation
+          services for all of our products. Our unique customization ideas are
+          easy to install, use and maintain. Carports GM has got you Covered!
+        </p>
+        <div class="whoweare-icons-and-h2">
+          <div class="whoweare-icon-and-h2">
+            <div class="icon-like-png">
+              <svg
+                fill="#bc1f20"
+                version="1.1"
+                id="Capa_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 0 45.393 45.393"
+                width="100%"
+                height="100%"
+                xml:space="preserve"
+                ><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier">
+                  <g>
+                    <g>
+                      <path
+                        d="M43.518,12.709L25.178,0.728c-1.511-0.978-3.458-0.968-4.96,0.021L1.859,12.719c-1.14,0.751-1.455,2.284-0.705,3.424 c0.751,1.14,2.283,1.456,3.424,0.704L22.715,5.021L40.83,16.857c0.416,0.269,0.881,0.396,1.341,0.396 c0.812,0,1.604-0.397,2.077-1.127C44.99,14.98,44.662,13.452,43.518,12.709z"
+                      ></path>
+                      <path
+                        d="M38.879,27.616c-0.151-0.865-0.903-1.505-1.78-1.505h-1.008l-0.383-3.987c-0.409-4.264-3.948-7.49-8.232-7.49H17.92 c-4.285,0-7.823,3.227-8.233,7.49l-0.382,3.987H8.296c-0.878,0-1.629,0.64-1.782,1.505l-1.5,8.504 c-0.186,1.054,0.112,2.139,0.8,2.957c0.662,0.788,1.637,1.258,2.657,1.293v1.412c0,1.999,1.602,3.61,3.603,3.61h1.138 c1.999,0,3.625-1.611,3.625-3.61v-1.389h11.732v1.386c0,2,1.613,3.613,3.612,3.613h1.139c1.999,0,3.614-1.613,3.614-3.613V40.37 c1.02-0.035,1.989-0.501,2.649-1.288c0.688-0.82,0.982-1.899,0.798-2.955L38.879,27.616z M11.642,37.113 c-1.687,0-3.055-1.367-3.055-3.056c0-1.689,1.368-3.057,3.055-3.057c1.688,0,3.057,1.367,3.057,3.057 C14.699,35.746,13.33,37.113,11.642,37.113z M12.404,26.111l0.353-3.678c0.257-2.674,2.476-4.688,5.163-4.688h0.551v1.156 c0,1.003,0.797,1.802,1.799,1.802h4.856c1.002,0,1.813-0.799,1.813-1.802v-1.155h0.537c2.687,0,4.906,2.014,5.162,4.688 l0.354,3.678L12.404,26.111L12.404,26.111z M33.75,37.113c-1.687,0-3.055-1.367-3.055-3.056c0-1.689,1.368-3.057,3.055-3.057 c1.688,0,3.057,1.367,3.057,3.057C36.807,35.746,35.438,37.113,33.75,37.113z"
+                      ></path>
+                    </g>
+                  </g>
+                </g></svg
+              >
+            </div>
+            <h2>Aluminum Carports</h2>
+          </div>
+          <div class="whoweare-icon-and-h2">
+            <div class="icon-like-png">
+              <svg
+                width="100%"
+                height="100%"
+                viewBox="0 0 24 24"
+                id="Layer_1"
+                data-name="Layer 1"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="#bc1f20"
+                stroke="#bc1f20"
+                ><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"
+                  ><defs
+                    ><style>
+                      .cls-1 {
+                        fill: none;
+                        stroke: #bc1f20;
+                        stroke-miterlimit: 10;
+                        stroke-width: 1.91px;
+                      }
+                    </style></defs
+                  ><polyline
+                    class="cls-1"
+                    points="0.55 1.5 22.5 3.41 22.5 6.27 0.55 6.27"
+                  ></polyline><line
+                    class="cls-1"
+                    x1="20.59"
+                    y1="6.27"
+                    x2="20.59"
+                    y2="22.5"></line><line
+                    class="cls-1"
+                    x1="23.45"
+                    y1="22.5"
+                    x2="0.55"
+                    y2="22.5"></line><polyline
+                    class="cls-1"
+                    points="4.36 12.96 5.32 18.68 5.32 22.5"
+                  ></polyline><polyline
+                    class="cls-1"
+                    points="5.32 22.5 5.32 18.68 9.14 18.68 9.14 22.5"
+                  ></polyline><line
+                    class="cls-1"
+                    x1="9.14"
+                    y1="15.82"
+                    x2="16.77"
+                    y2="15.82"></line><line
+                    class="cls-1"
+                    x1="12.95"
+                    y1="22.5"
+                    x2="12.95"
+                    y2="15.82"></line></g
+                ></svg
+              >
+            </div>
+            <h2>Patio Covers</h2>
+          </div>
+          <div class="whoweare-icon-and-h2">
+            <div class="icon-like-png">
+              <svg
+                height="100%"
+                width="100%"
+                version="1.1"
+                id="Capa_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 0 26 26"
+                xml:space="preserve"
+                fill="#bc1f20"
+                stroke="#bc1f20"
+                ><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier">
+                  <g>
+                    <g>
+                      <path
+                        style="fill:#bc1f20;"
+                        d="M22.934,11.19V8.705l-2.955-0.482c-0.176-0.699-0.45-1.357-0.813-1.961l1.723-2.456l-1.756-1.755 l-2.424,1.743c-0.604-0.366-1.267-0.646-1.971-0.82l-0.516-2.941h-2.484L11.26,2.965c-0.706,0.173-1.371,0.448-1.977,0.812 L6.866,2.051L5.11,3.806l1.7,2.431C6.442,6.846,6.163,7.51,5.985,8.22L3.066,8.705v2.484l2.916,0.516 c0.176,0.71,0.456,1.375,0.824,1.985l-1.723,2.409l1.756,1.757l2.434-1.704c0.608,0.365,1.271,0.642,1.977,0.815l0.488,2.934 h2.484l0.521-2.941c0.701-0.178,1.363-0.457,1.967-0.824l2.451,1.721l1.755-1.757l-1.749-2.429 c0.362-0.604,0.637-1.263,0.811-1.964L22.934,11.19z M13,13.431c-1.913,0-3.464-1.55-3.464-3.464c0-1.912,1.551-3.463,3.464-3.463 s3.463,1.551,3.463,3.463C16.464,11.881,14.913,13.431,13,13.431z"
+                      ></path>
+                    </g>
+                    <path
+                      style="fill:#bc1f20;"
+                      d="M24,18.967v4c0,0.551-0.448,1-1,1H3c-0.552,0-1-0.449-1-1v-4H0v4c0,1.656,1.344,3,3,3h20 c1.656,0,3-1.344,3-3v-4H24z"
+                    ></path>
+                  </g>
+                </g></svg
+              >
+            </div>
+            <h2>Installation Services</h2>
+          </div>
+        </div>
+        <button><a href="#contact-1105">Contact us</a></button>
+      </div>
+    </div>
+  </section>
+  <section id="structure-guide">
+    <h1>Structure Guide</h1>
+    <h4>
+      Please click on the tabs below to follow our configuration tool step by
+      step
+    </h4>
+    <div class="expandable-items-container">
+      <div class="expandable-item item-1">
+        <div class="expandable-item-title-container">
+          <div class="expandable-svg">
+            <svg
+              viewBox="0 0 24 24"
+              width="100%"
+              height="100%"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              ><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier">
+                <path
+                  d="M13 3C13 2.44772 12.5523 2 12 2C11.4477 2 11 2.44772 11 3V11H3C2.44772 11 2 11.4477 2 12C2 12.5523 2.44772 13 3 13H11V21C11 21.5523 11.4477 22 12 22C12.5523 22 13 21.5523 13 21V13H21C21.5523 13 22 12.5523 22 12C22 11.4477 21.5523 11 21 11H13V3Z"
+                  fill="#0F0F0F"></path>
+              </g></svg
+            >
+          </div>
+          <h3 class="expandable-item-title">Size</h3>
+        </div>
+        <div data-expanded="false" class="expandable-item-description">
+          The first step is to estimate the size of your Structure, keeping in
+          mind your desired Style and your Budget. Structure will be charges per
+          square foot.
+        </div>
+      </div>
+      <div class="expandable-item item-2">
+        <div class="expandable-item-title-container">
+          <div class="expandable-svg">
+            <svg
+              viewBox="0 0 24 24"
+              width="100%"
+              height="100%"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              ><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier">
+                <path
+                  d="M13 3C13 2.44772 12.5523 2 12 2C11.4477 2 11 2.44772 11 3V11H3C2.44772 11 2 11.4477 2 12C2 12.5523 2.44772 13 3 13H11V21C11 21.5523 11.4477 22 12 22C12.5523 22 13 21.5523 13 21V13H21C21.5523 13 22 12.5523 22 12C22 11.4477 21.5523 11 21 11H13V3Z"
+                  fill="#0F0F0F"></path>
+              </g></svg
+            >
+          </div>
+          <h3 class="expandable-item-title">Roofline Style</h3>
+        </div>
+        <div data-expanded="false" class="expandable-item-description">
+          Your Structure is Custom build and many options are available. Take a
+          look below for available options.
+          <h3>Curved Edge</h3>
+          <img src="curved-edge.webp" alt="" />
+          <h3>Straight Roof</h3>
+          <img src="straight-roof.webp" alt="" />
+          <h3>Arched Roof</h3>
+          <img src="arched-roof.webp" alt="" />
+          <h3>Round Roof</h3>
+          <img src="round-roof.webp" alt="" />
+        </div>
+      </div>
+      <div class="expandable-item item-3">
+        <div class="expandable-item-title-container">
+          <div class="expandable-svg">
+            <svg
+              viewBox="0 0 24 24"
+              width="100%"
+              height="100%"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              ><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier">
+                <path
+                  d="M13 3C13 2.44772 12.5523 2 12 2C11.4477 2 11 2.44772 11 3V11H3C2.44772 11 2 11.4477 2 12C2 12.5523 2.44772 13 3 13H11V21C11 21.5523 11.4477 22 12 22C12.5523 22 13 21.5523 13 21V13H21C21.5523 13 22 12.5523 22 12C22 11.4477 21.5523 11 21 11H13V3Z"
+                  fill="#0F0F0F"></path>
+              </g></svg
+            >
+          </div>
+          <h3 class="expandable-item-title">frame color</h3>
+        </div>
+        <div data-expanded="false" class="expandable-item-description">
+          <h3>White</h3>
+          <img src="frame-color-white.webp" alt="" />
+          <h3>Graphite</h3>
+          <img src="frame-color-graphite.webp" alt="" />
+          <h3>Champagne</h3>
+          <img src="frame-color-champagne.webp" alt="" />
+          <h3>Black</h3>
+          <img src="frame-color-black.webp" alt="" />
+        </div>
+      </div>
+      <div class="expandable-item item-4">
+        <div class="expandable-item-title-container">
+          <div class="expandable-svg">
+            <svg
+              viewBox="0 0 24 24"
+              width="100%"
+              height="100%"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              ><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier">
+                <path
+                  d="M13 3C13 2.44772 12.5523 2 12 2C11.4477 2 11 2.44772 11 3V11H3C2.44772 11 2 11.4477 2 12C2 12.5523 2.44772 13 3 13H11V21C11 21.5523 11.4477 22 12 22C12.5523 22 13 21.5523 13 21V13H21C21.5523 13 22 12.5523 22 12C22 11.4477 21.5523 11 21 11H13V3Z"
+                  fill="#0F0F0F"></path>
+              </g></svg
+            >
+          </div>
+          <h3 class="expandable-item-title">installation</h3>
+        </div>
+        <div data-expanded="false" class="expandable-item-description">
+          <p>
+            Based on your Structure Design, Installation variations may be
+            necessary. Final Structure Design will be confirmed after the onsite
+            Inspection. Additional Custom Installations fees may apply.
+          </p>
+          <div class="installation-pictures">
+            <h3>Free Standing</h3>
+            <img src="free-standing.webp" alt="" />
+            <h3>Roof Attached</h3>
+            <img src="roof-attached.webp" alt="" />
+            <h3>Wall Attached</h3>
+            <img src="wall-attached.jpeg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="cta">
+    <h2>REQUEST A NO OBLIGATION CONSULTATION AND QUOTE</h2>
+    <button><a href="#contact-1105">Contact us</a></button>
+  </div>
+
+  <section id="services">
+    <div class="services-container">
+      <h1>Our services</h1>
+      <h2 class="big">How can we help you</h2>
+      <div class="services-list">
+        <div class="services-list-item services-list-item-1">
+          <img src="carports.jpeg" alt="" />
+          <div class="services-list-item-content">
+            <h1>Carports</h1>
+            <p>
+              Carports GM can be customized according to all of your needs and
+              wants. We offer only the best carports made of high-quality, long
+              lasting, Aluminum. Once installed, our carports can be used for
+              years to come. Carports GM provides modern and robust architecture
+              that provides impact resistance in cases of outdoor accidents. Our
+              products are made from high- quality materials and let you enjoy
+              the outdoors while offering reprieve from the scorching heat.
+            </p>
+            <button><a href="#contact-1105">Contact us</a></button>
+          </div>
+        </div>
+        <div class="services-list-item services-list-item-2">
+          <div class="services-list-item-content">
+            <h1>Patio Covers</h1>
+            <p>
+              Patio covers can offer protection from harmful UV rays while
+              creating a relaxing environment to enjoy the GM sun. We offer a
+              variety of styles to choose from in order to create a well
+              integrated design that matches the stylish look of your home. Our
+              covers are beautifully designed and are sure to give your house a
+              unique look. They ensure privacy for your home while also allowing
+              you to enjoy the outdoors as you never have before. Carports GM
+              has you covered!
+            </p>
+            <button><a href="#contact-1105">Contact us</a></button>
+          </div>
+          <img src="patio-covers.jpeg" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing">
+    <div class="pricing-container">
+      <h1>Affordable prices</h1>
+      <h2 class="big">GET THE BEST OFFER</h2>
+      <div class="price-list-container">
+        <div class="price-list-item price-list-item">
+          <div class="price-list-item-title">
+            <div class="price-list-item-title-svg">
+              <img src="price-list-item-img.png" alt="" />
+            </div>
+            <h2>Carport</h2>
+            <p>starting from</p>
+            <div class="price-list-item-content">
+              <p><span>$ 45</span> / Square foot</p>
+              <ul>
+                <li>
+                  <div class="price-list-li-icon">
+                    <svg
+                      viewBox="0 0 24 24"
+                      width="100%"
+                      height="100%"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      ><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g
+                        id="SVGRepo_tracerCarrier"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier">
+                        <path
+                          d="M22.7048 4.95406C22.3143 4.56353 21.6811 4.56353 21.2906 4.95406L8.72696 17.5177C8.33643 17.9082 7.70327 17.9082 7.31274 17.5177L2.714 12.919C2.32348 12.5284 1.69031 12.5284 1.29979 12.919C0.909266 13.3095 0.909265 13.9427 1.29979 14.3332L5.90392 18.9289C7.07575 20.0986 8.97367 20.0978 10.1445 18.9271L22.7048 6.36827C23.0953 5.97775 23.0953 5.34458 22.7048 4.95406Z"
+                          fill="#bc1f20"></path>
+                      </g></svg
+                    >
+                  </div>
+                  <p>Site inspection</p>
+                </li>
+                <li>
+                  <div class="price-list-li-icon">
+                    <svg
+                      viewBox="0 0 24 24"
+                      width="100%"
+                      height="100%"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      ><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g
+                        id="SVGRepo_tracerCarrier"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier">
+                        <path
+                          d="M22.7048 4.95406C22.3143 4.56353 21.6811 4.56353 21.2906 4.95406L8.72696 17.5177C8.33643 17.9082 7.70327 17.9082 7.31274 17.5177L2.714 12.919C2.32348 12.5284 1.69031 12.5284 1.29979 12.919C0.909266 13.3095 0.909265 13.9427 1.29979 14.3332L5.90392 18.9289C7.07575 20.0986 8.97367 20.0978 10.1445 18.9271L22.7048 6.36827C23.0953 5.97775 23.0953 5.34458 22.7048 4.95406Z"
+                          fill="#bc1f20"></path>
+                      </g></svg
+                    >
+                  </div>
+                  <p>installation included</p>
+                </li>
+
+                <li>
+                  <div class="price-list-li-icon">
+                    <svg
+                      viewBox="0 0 24 24"
+                      width="100%"
+                      height="100%"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      ><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g
+                        id="SVGRepo_tracerCarrier"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier">
+                        <path
+                          d="M22.7048 4.95406C22.3143 4.56353 21.6811 4.56353 21.2906 4.95406L8.72696 17.5177C8.33643 17.9082 7.70327 17.9082 7.31274 17.5177L2.714 12.919C2.32348 12.5284 1.69031 12.5284 1.29979 12.919C0.909266 13.3095 0.909265 13.9427 1.29979 14.3332L5.90392 18.9289C7.07575 20.0986 8.97367 20.0978 10.1445 18.9271L22.7048 6.36827C23.0953 5.97775 23.0953 5.34458 22.7048 4.95406Z"
+                          fill="#bc1f20"></path>
+                      </g></svg
+                    >
+                  </div>
+                  <p>All GM</p>
+                </li>
+              </ul>
+              <button><a href="#contact-1105">Contact us</a></button>
+            </div>
+          </div>
+        </div>
+        <div class="price-list-item price-list-item">
+          <div class="price-list-item-title">
+            <div class="price-list-item-title-svg">
+              <img src="patio.png" alt="" />
+            </div>
+            <h2>Patio</h2>
+            <p>starting from</p>
+          </div>
+          <div class="price-list-item-content">
+            <p><span>$ 45</span> / Square foot</p>
+            <ul>
+              <li>
+                <div class="price-list-li-icon">
+                  <svg
+                    viewBox="0 0 24 24"
+                    width="100%"
+                    height="100%"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    ><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier">
+                      <path
+                        d="M22.7048 4.95406C22.3143 4.56353 21.6811 4.56353 21.2906 4.95406L8.72696 17.5177C8.33643 17.9082 7.70327 17.9082 7.31274 17.5177L2.714 12.919C2.32348 12.5284 1.69031 12.5284 1.29979 12.919C0.909266 13.3095 0.909265 13.9427 1.29979 14.3332L5.90392 18.9289C7.07575 20.0986 8.97367 20.0978 10.1445 18.9271L22.7048 6.36827C23.0953 5.97775 23.0953 5.34458 22.7048 4.95406Z"
+                        fill="#bc1f20"></path>
+                    </g></svg
+                  >
+                </div>
+                <p>Site inspection</p>
+              </li>
+              <li>
+                <div class="price-list-li-icon">
+                  <svg
+                    viewBox="0 0 24 24"
+                    width="100%"
+                    height="100%"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    ><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier">
+                      <path
+                        d="M22.7048 4.95406C22.3143 4.56353 21.6811 4.56353 21.2906 4.95406L8.72696 17.5177C8.33643 17.9082 7.70327 17.9082 7.31274 17.5177L2.714 12.919C2.32348 12.5284 1.69031 12.5284 1.29979 12.919C0.909266 13.3095 0.909265 13.9427 1.29979 14.3332L5.90392 18.9289C7.07575 20.0986 8.97367 20.0978 10.1445 18.9271L22.7048 6.36827C23.0953 5.97775 23.0953 5.34458 22.7048 4.95406Z"
+                        fill="#bc1f20"></path>
+                    </g></svg
+                  >
+                </div>
+                <p>installation included</p>
+              </li>
+
+              <li>
+                <div class="price-list-li-icon">
+                  <svg
+                    viewBox="0 0 24 24"
+                    width="100%"
+                    height="100%"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    ><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier">
+                      <path
+                        d="M22.7048 4.95406C22.3143 4.56353 21.6811 4.56353 21.2906 4.95406L8.72696 17.5177C8.33643 17.9082 7.70327 17.9082 7.31274 17.5177L2.714 12.919C2.32348 12.5284 1.69031 12.5284 1.29979 12.919C0.909266 13.3095 0.909265 13.9427 1.29979 14.3332L5.90392 18.9289C7.07575 20.0986 8.97367 20.0978 10.1445 18.9271L22.7048 6.36827C23.0953 5.97775 23.0953 5.34458 22.7048 4.95406Z"
+                        fill="#bc1f20"></path>
+                    </g></svg
+                  >
+                </div>
+                <p>All GM</p>
+              </li>
+            </ul>
+            <button><a href="#contact-1105">Contact us</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="gallery">
+    <h1>Hundreds of satisfied customers</h1>
+    <h4>Please check some photos of our recent work</h4>
+    <div id="lightgallery">
+      <a href="IMG_7298.webp" class="gallery-img-1 horizontal">
+        <img src="IMG_7298.webp" alt="" />
+      </a>
+      <a href="IMG_7297.webp" class="gallery-img-2 vertical">
+        <img src="IMG_7297.webp" alt="" />
+      </a>
+      <a href="IMG_7296.webp" class="gallery-img-3 horizontal">
+        <img src="IMG_7296.webp" alt="" />
+      </a>
+      <a href="IMG_7295.webp" class="gallery-img-4 vertical">
+        <img src="IMG_7295.webp" alt="" />
+      </a>
+      <a href="IMG_7294.webp" class="gallery-img-5 horizontal">
+        <img src="IMG_7294.webp" alt="" />
+      </a>
+      <a href="IMG_7293.webp" class="gallery-img-6 horizontal">
+        <img src="IMG_7293.webp" alt="" />
+      </a>
+      <a href="IMG_7292.webp" class="gallery-img-7 horizontal">
+        <img src="IMG_7292.webp" alt="" />
+      </a>
+      <a href="IMG_7291.webp" class="gallery-img-8 horizontal">
+        <img src="IMG_7291.webp" alt="" />
+      </a>
+      <a href="IMG_7290.webp" class="gallery-img-9 horizontal">
+        <img src="IMG_7290.webp" alt="" />
+      </a>
+      <a href="IMG_7289.webp" class="gallery-img-10 horizontal">
+        <img src="IMG_7289.webp" alt="" />
+      </a>
+      <a href="IMG_7288.JPG" class="gallery-img-11 horizontal">
+        <img src="IMG_7288.JPG" alt="" />
+      </a>
+      <a href="IMG_7287.JPG" class="gallery-img-12 horizontal">
+        <img src="IMG_7287.JPG" alt="" />
+      </a>
+      <a href="IMG_7242.webp" class="gallery-img-13 vertical">
+        <img src="IMG_7242.webp" alt="" />
+      </a>
+      <a href="IMG_7238.webp" class="gallery-img-14 horizontal">
+        <img src="IMG_7238.webp" alt="" />
+      </a>
+      <a href="IMG_7237.webp" class="gallery-img-14 vertical">
+        <img src="IMG_7237.webp" alt="" />
+      </a>
+      <a href="IMG_7182.webp" class="gallery-img-15 horizontal">
+        <img src="IMG_7182.webp" alt="" />
+      </a>
+      <a href="IMG_4636.webp" class="gallery-img-16 horizontal">
+        <img src="IMG_4636.webp" alt="" />
+      </a>
+    </div>
+  </section>
+  <section id="contact-1105">
+    <div class="cs-container">
+      <div class="cs-content">
+        <h1 class="cs-topper">Contact Us</h1>
+        <h4 class="cs-title">
+          Fill in the form and I will contact you shortly
+        </h4>
+        <!--Form-->
+        <form
+          class="cs-form"
+          id="cs-form-1105"
+          name="Contact Form"
+          method="POST"
+          action='https://formsubmit.co/carportsnj@gmail.com'
+        >
+          <label class="cs-label">
+            Name
+            <input
+              class="cs-input"
+              required
+              type="text"
+              id="name-1105"
+              name="name"
+              placeholder="Name"
+            />
+          </label>
+          <label class="cs-label cs-email">
+            Email
+            <input
+              class="cs-input"
+              required
+              type="email"
+              id="email-1105"
+              name="email"
+              placeholder="Email"
+            />
+          </label>
+          <label class="cs-label cs-phone">
+            Phone
+            <input
+              class="cs-input"
+              required
+              type="phone"
+              id="phone-1105"
+              name="phone"
+              placeholder="Phone"
+            />
+          </label>
+          <label class="cs-label">
+            Message
+            <textarea
+              class="cs-input cs-textarea"
+              required
+              name="Message"
+              id="message-1105"
+              placeholder="Write message..."></textarea>
+          </label>
+          <button class="cs-button-solid cs-submit" type="submit">Submit</button
+          >
+        </form>
+      </div>
+      <ul class="cs-ul">
+        <li class="cs-li">
+          <picture class="cs-icon-wrapper">
+            <img
+              aria-hidden="true"
+              src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-phone.svg"
+              alt="phone icon"
+              class="cs-icon"
+              width="40"
+              height="40"
+              decoding="async"
+            />
+          </picture>
+          <div class="cs-flex-group">
+            <span class="cs-header">Phone</span>
+            <a href="tel:239.319.9796
+                    " class="cs-link"
+              >239.319.9796
+            </a>
+          </div>
+        </li>
+        <li class="cs-li">
+          <picture class="cs-icon-wrapper">
+            <img
+              aria-hidden="true"
+              src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-email.svg"
+              alt="mail icon"
+              class="cs-icon"
+              width="40"
+              height="40"
+              decoding="async"
+            />
+          </picture>
+          <div class="cs-flex-group">
+            <span class="cs-header">Email</span>
+            <a href="mailto:carportsnj@gmail.com" class="cs-link"
+              >carportsnj@gmail.com</a
+            >
+          </div>
+        </li>
+        <li class="cs-li">
+          <picture class="cs-icon-wrapper">
+            <img
+              aria-hidden="true"
+              src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-pin.svg"
+              alt="address icon"
+              class="cs-icon"
+              width="40"
+              height="40"
+              decoding="async"
+            />
+          </picture>
+          <div class="cs-flex-group">
+            <span class="cs-header">Address</span>
+            <a href="" class="cs-link">14 Westboro Ln, Monroe Township, NJ 08831</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <script>
+    import { fade } from "astro:transitions";
+    import lightGallery from "lightgallery";
+    import { gsap } from "gsap";
+
+    // Plugins
+    import lgThumbnail from "lightgallery/plugins/thumbnail";
+    import lgZoom from "lightgallery/plugins/zoom";
+
+    lightGallery(document.getElementById("lightgallery"), {
+      plugins: [lgZoom, lgThumbnail],
+      licenseKey: "your_license_key",
+      speed: 500,
+      mode: "lg-fade",
+      // ... other settings
+    });
+
+    const expandableItems = document.querySelectorAll(".expandable-item");
+    expandableItems.forEach((item) => {
+      const buttonToExpand = item.querySelector(".expandable-svg");
+      const description = item.querySelector(".expandable-item-description");
+      const expandableTitle = item.querySelector(
+        ".expandable-item-title-container"
+      );
+      expandableTitle.onclick = function (event) {
+        const wasExpanded =
+          description.getAttribute("data-expanded") === "true" ? true : false;
+
+        document.querySelectorAll(".expandable-item").forEach((item) => {
+          const otherDescription = item.querySelector(
+            ".expandable-item-description"
+          );
+          otherDescription.setAttribute("data-expanded", "false");
+          const otherButtonToExpand = item.querySelector(".expandable-svg");
+          otherButtonToExpand.innerHTML = `<svg
+				viewBox="0 0 24 24"
+				width="100%"
+				height="100%"
+				fill="none"
+				xmlns="http://www.w3.org/2000/svg"
+				><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g
+				  id="SVGRepo_tracerCarrier"
+				  stroke-linecap="round"
+				  stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier">
+				  <path
+					d="M13 3C13 2.44772 12.5523 2 12 2C11.4477 2 11 2.44772 11 3V11H3C2.44772 11 2 11.4477 2 12C2 12.5523 2.44772 13 3 13H11V21C11 21.5523 11.4477 22 12 22C12.5523 22 13 21.5523 13 21V13H21C21.5523 13 22 12.5523 22 12C22 11.4477 21.5523 11 21 11H13V3Z"
+					fill="#0F0F0F"></path>
+				</g></svg
+			  >`;
+          const otherExpandableTitle = item.querySelector(
+            ".expandable-item-title-container"
+          );
+          otherExpandableTitle.querySelector(
+            ".expandable-item-title"
+          ).style.color = "initial";
+          otherExpandableTitle.style.backgroundColor = "initial";
+          otherExpandableTitle.style.color = "#1e0101";
+          otherDescription.style.outline = "unset";
+        });
+
+        if (!wasExpanded) {
+          description.setAttribute("data-expanded", "true");
+          buttonToExpand.innerHTML = `<svg viewBox="0 0 24 24" width='100%' height='100%' fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M2 12C2 11.4477 2.44772 11 3 11H21C21.5523 11 22 11.4477 22 12C22 12.5523 21.5523 13 21 13H3C2.44772 13 2 12.5523 2 12Z" fill="#FFFFFF"></path> </g></svg>`;
+          expandableTitle.style.backgroundColor = "#bc1f20";
+          console.log(expandableTitle);
+          expandableTitle.querySelector(".expandable-item-title").style.color =
+            "white";
+          expandableTitle.style.color = "white";
+          description.style.outline = "solid 1px #bc1f20";
+        }
+      };
+    });
+
+    const width = document.querySelector(".width");
+
+    const height = document.querySelector(".height");
+    console.log(width, height);
+    const squareFeet = document.querySelector(".square-feet");
+    const priceRange = document.querySelector(".price-range");
+
+    [width, height].forEach((e) => {
+      e.addEventListener("input", recalculate);
+    });
+
+    function recalculate() {
+      squareFeet.innerText = +width.value * +height.value;
+      console.log(width);
+      priceRange.innerText = "$" + +squareFeet.innerText * 40;
+      if (squareFeet.innerText.length > 8 || priceRange.innerText.length > 8) {
+        squareFeet.innerText = "NaN";
+        priceRange.innerText = "NaN";
+      }
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      var menuList = document.querySelector("#menu-container .menu-list");
+      function slideMenu() {
+        var activeState = menuList.classList.contains("active");
+        console.log(activeState);
+        gsap.to(menuList, {
+          duration: 0.4, // 400 milliseconds = 0.4 seconds
+          right: activeState ? "0%" : "-100%",
+          ease: "power1.out", // this is a basic easing function for a smooth animation
+        });
+        console.log("im sliding menu");
+      }
+
+      document
+        .querySelector("#menu-wrapper")
+        .addEventListener("click", function (event) {
+          event.stopPropagation();
+          document.querySelector("#hamburger-menu").classList.toggle("open");
+          document
+            .querySelector("#menu-container .menu-list")
+            .classList.toggle("active");
+          slideMenu();
+          document.body.classList.toggle("overflow-hidden");
+        });
+
+      const menuItems = document.querySelectorAll("ul.menu-list.accordion a");
+      console.log(menuItems);
+      menuItems.forEach((e) => {
+        e.addEventListener("click", function () {
+          gsap.to(menuList, {
+            duration: 0.4, // 400 milliseconds = 0.4 seconds
+            right: "-100%",
+            ease: "power1.out", // this is a basic easing function for a smooth animation
+          });
+          document.querySelector("#hamburger-menu").classList.toggle("open");
+          document
+            .querySelector("#menu-container .menu-list")
+            .classList.toggle("active");
+        });
+      });
+    });
+
+
+  </script>
+</MainLayout>
